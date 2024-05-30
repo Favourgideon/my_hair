@@ -1,0 +1,135 @@
+            *,a {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                /* text-decoration: none; */
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            body{
+            
+            }
+
+
+
+            .logo{
+                width: 70px;
+                height: 60px;
+                border: 1px solid rgb(95, 74, 74);
+                border-radius: 10px;
+            
+            }
+
+            .container{
+                width: 100%;
+                height: 80vh;
+                /* border: 1px solid black; */
+                justify-content: center;
+                margin: auto;
+                background-image: url(./img/pic.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .nav{
+                display: flex;
+                margin-top: 50px;
+                width: 90vw;
+                position: fixed;
+                margin: auto;
+                padding-left: 30px;
+
+            }
+
+            ul{
+                display: flex;
+                margin-top: 20px;
+                margin-left: 600px;
+                gap: 5px;
+            }
+
+            ul li{
+                list-style: none;
+                color: azure;
+                font-weight: 300;
+            }
+
+            ul a{
+                text-decoration: none;
+                color: rgb(10, 10, 10);
+                text-decoration: solid;
+            }
+            .name{
+                font-weight: 300;
+                text-align: right;
+            }
+
+            .about{
+                background-color: rgb(18, 19, 19);
+                display: flex;
+                margin: auto;
+                gap: 60px;
+                line-height: 1.5;
+                text-align: center;
+                justify-content: center;
+                color: antiquewhite;
+            }
+            a{
+                text-decoration: none;
+
+            }
+            a:hover{
+                color: rgb(42, 138, 165);
+            }
+            /*
+            .notification {
+                background-color: #555;
+                color: white;
+                text-decoration: none;
+                padding: 15px 26px;
+                position: relative;
+                display: inline-block;
+                border-radius: 2px;
+            }
+            
+            .notification:hover {
+                background: red;
+            }
+            
+            .notification .badge {
+                position: absolute;
+                top: -10px;
+                right: -10px;
+                padding: 5px 10px;
+                border-radius: 50%;
+                background: red;
+                color: white;
+            }*/
+
+            .end{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                display: flex;
+                padding-left: 20px;
+            }
+
+            .end a{
+                padding-right: 5px;
+                height: 30px;
+                border: 1px solid white;
+                border-radius: 10px;
+
+            }
+            .contact{
+                border-left: 1px solid rgb(20, 20, 20);
+            }
+
+            .two{
+                color: blue;
+            padding-left: 700px;
+            }
+            .LSP,
+            .PHS,
+            .OSB{
+                color: gold;
+            }

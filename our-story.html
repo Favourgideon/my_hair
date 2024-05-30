@@ -1,0 +1,116 @@
+      <!DOCTYPE html> 
+      <div lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Our-Story</title>
+          <link rel="stylesheet" href="style2.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+      </head>
+      <div  class="top-contaner">
+        <nav class="one">
+            <a href="#"><i class="fa-brands fa-facebook icon"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter icon"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </a>
+          </div>
+        <div class="two">
+            Contact  <i class="fa-solid fa-phone"></i> (08140104671) 
+                
+            
+        </div>
+        
+      </div>
+
+                <div class="head">     
+                  <h2> WELCOME </h2>
+                  
+                </div>
+
+          <div class="slideshow-container">
+
+                      <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="\img\istockphoto-1341429602-612x612.jpg" style="width:100%" height="100%">
+                        <div class="text">Caption Text</div>
+                      </div>
+                      
+                      <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="\img\istockphoto-1157819560-612x612.jpg" style="width:100%">
+                        <div class="text">Caption Two</div>
+                      </div>
+                      
+                      <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="\img\istockphoto-1394730619-612x612.jpg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                      </div>
+                      
+                      <a class="prev" onclick="plusSlides(-1)">❮</a>
+                      <a class="next" onclick="plusSlides(1)">❯</a>
+                      
+                      </div>
+                      <br>
+                      
+                      <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                      </div>
+                      
+                      <script>
+                          let slideIndex = 1;
+                          showSlides(slideIndex);
+                          
+                          function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                          }
+                          
+                          function currentSlide(n) {
+                          showSlides(slideIndex = n);
+                          }
+                          
+                          function showSlides(n) {
+                          let i;
+                          let slides = document.getElementsByClassName("mySlides");
+                          let dots = document.getElementsByClassName("dot");
+                          if (n > slides.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = slides.length}
+                          for (i = 0; i < slides.length; i++) {
+                              slides[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                              dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                          }
+                          </script>
+                  
+                  </div>
+
+          <div class="content">
+            
+                <p class="top"> JOURNEY</p>
+                <p class="story"> &nbsp; &nbsp;  My heart and soul has gone into the making of this space and I seek to always maintain that integrity with every step I make. <br> I want to tell you a little about me and my path to opening my own salon and where I am wanting to take it. Hang in there, it's kinda long.
+
+                  Never in my wildest dreams did I think  I would have become a hairdresser. Sure, in high school I would force my younger sisters to sit so i can make their   hair <br> all kinds of ways and crazy styles, but it just never crossed my mind.<br>  I remember a friend saying I would have my own salon one day and I told her she was crazy! Hair? Me? <br>  I thought maybe makeup, but other peoples hair, no way! Lol! Growing up I thought I wanted to be a teacher, but come time graduation I knew traditional school was not for me. So did my mom. So, she asked me a question that changed my life forever, and I use it now when I have clients who seem to need help with their life direction.  She said, “What would you do for rest of your life for free?” “What?” I asked.  She said, “Yeah, think of something you like to do and lets figure out how you can make money doing it.”</p>
+                  This began the adventure to start all over again! I knew that I didn’t want to work for anyone else, so I prepared myself to open my own salon.  I attended a salon owners seminar and decided I was ready. Never in my wildest dreams did I think I would ever want to be involved with managing a business, but somehow , it being my direct business it's kinda fun! I found my cute little space near the sweet and quaint ...........  Here I hope to grow Salon Seed to be the kind of place that I so longed for when I first started. A place where technique is refined, creativity is nurtured, and good vibes are a must! Every product has been hand selected by me, after doing research on the businesses and their values. I proudly carry most of the Davines range of styling products and slowly building to have every single offering.
+                </div>
+                  <br>
+                  <br>
+                <div class="vision"> <strong>VISION</strong> 
+                </div> 
+                <p class="content"> Estasignature is beyond </p>
+
+                <br>
+                <br>
+             <div>
+              <a href="salon-services.html"><button>Next page </button></a>
+            </div>   
+          </div>
+
+          </body>
+          </html>

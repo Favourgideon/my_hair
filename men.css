@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+
+.Top-container{
+    padding: 60px 50px;
+}
+.image{
+gap: 40px;
+display: flex;
+padding: 40px 70px ;
+}
+.image2{
+gap: 40px;
+padding: 20px 70px;
+display: flex;
+}
+.cut{
+padding-right: 30px;
+}
+.image3{ display: flex;
+    gap: 40px;
+    padding: 30px 110px;
+   }
+   
+   .book{
+    text-align: right;
+   }

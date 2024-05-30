@@ -1,0 +1,136 @@
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Book An Appointment</title>
+      </head>
+      <body>
+        <style>
+          *{
+            margin: 0;
+          padding: 0;
+        }
+
+          body{
+            background-color: black;
+          }
+
+          .container{
+            border: 4px solid rgb(235, 226, 226);
+      
+            line-height: 1.4;
+            margin: 70px 80px;
+          }
+          h1{
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            text-align: center;
+            color: gold;
+          }
+          
+          .middle-container{
+            margin: 30px 300px;
+            border-radius: 20px;
+          }
+          h2{
+            text-align: center;
+            letter-spacing: 4px;
+            color: aliceblue;
+          }
+
+          input{
+            background-color: rgb(255, 250, 252);
+            padding-right: 100px;
+            height: 25px;
+            width: 170px;
+            
+          }
+          .DT{
+
+            display: flex;
+            gap: 20px;
+            color: aliceblue;
+          }
+      
+          
+          p{
+            color: aliceblue;
+          }
+          .phone{
+            display: flex;
+            color: aliceblue;
+          }
+          .name{
+            color: aliceblue;
+          }
+                
+        button{
+        
+          color: rgb(19, 18, 19);
+          padding: 10px;
+          text-align: center;
+          font-size: 12px;
+          margin: 20px 200px;
+          cursor: pointer;
+          border-radius: 23px;
+          background-color: rgb(140, 231, 223);
+    }
+      </style>
+
+
+
+        
+      <div class="container">
+        
+        <h1>Estasignature</h1>
+        <h2> Appointment Form</h2>
+
+        <div class="middle-container">
+
+          <div class="name">
+            <form action="/action_page.php">
+              <label for="Name">Customer:</label> <br>
+              <input type="name" id="name" name="phone" placeholder=" &nbsp; First " >  &nbsp; 
+              <input type="name" id="name" name="phone" placeholder="  &nbsp; Last" ><br>
+             
+          </div>
+          &nbsp;
+
+          
+
+          <div class="phone">
+            <div>
+              <label for="email">Email Address <br></label>
+              <input type="email" id="email" name="email">
+            </div>
+            
+            <div>
+              <label for="phone"> &nbsp; &nbsp; Phone number <br></label> &nbsp; &nbsp; 
+              <span>
+                <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+              </span>
+            </div>
+          </div>
+          <div class="DT">
+            <div>
+              <form action="/action_page.php">
+                <label for="date">Date</label> <br>
+                <input type="tel" id="date" name="date" placeholder="MM/DD/YYYY" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}"><br><br>
+              </form>
+            </div>
+            <div>
+              <form>
+                Time <input>
+
+              </form>
+            </div>
+        
+           
+          </div>
+        </div>
+      <div>
+          <button>SUBMIT FORM</button>
+        </div>
+      </div>
+      </body>
+      </html>

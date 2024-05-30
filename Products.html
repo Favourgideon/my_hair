@@ -1,0 +1,129 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Product</title>
+            <link rel="stylesheet" href="Products.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+ 
+        </head>
+      <div class="time">
+
+      <p id="demo"></p>
+
+      <script>
+      const d = new Date();
+      document.getElementById("demo").innerHTML = d;
+      </script>
+            
+              <div class="w3-container w3-center w3-animate-zoom" >
+         <p class="text"> <strong>Please stay with us as we take you through the process of looking your best </strong> </p>
+        </div>
+    
+          <h1 class="DHS"> Detailed Hair-Style</h1>
+          <div class="hair">
+              <div class="stich"> 
+                <img src="img\download.jpg" alt="stich" width="253" height="225">
+                    </div>
+                    <div class="men">
+                      <img src="img/download (1).jpg" alt="men" width="253" height="225">
+                          </div>
+                          <div class="ponytail">
+                            <img src="img\download (2).jpg" alt="ponytail" width="253" height="225">
+                                </div>
+                                <div class="girls">
+                                  <img src="img/download (3).jpg" alt="girls" width="253" height="225">
+                                      </div>
+          </div>
+
+          <h3> Quality Product</h3>
+          <div class="image">
+            <div class="straightner">
+              <img src="img\images.jpeg" alt="straightner">
+                  </div>
+                  <div comb>
+                    <img src="img\download (1).jpeg" alt="comb">
+                        </div>
+                        <div class="curl">
+                          <img src="img/download (3).jpeg" alt="curl" width="253" height="225">
+                              </div>
+                              <div class="combo">
+                                <img src="img/download (2).jpeg" alt="combo" width="253" height="225"  >
+                                    </div>
+                    </div>
+      <!--
+          <div> Book </div>
+          <h2>The method Attribute</h2>
+
+      <p>This form will be submitted using the POST method:</p>
+
+      <form action="/action_page.php" target="_blank" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <p>After you submit, notice that, unlike the GET method, the form values is NOT visible in the address bar of the new browser tab.</p>
+        -->
+        <p class="RT">Responsive Testimonials</p>
+    >
+
+    <div class="container">
+      <img src="img\pexels-photo-1661837.jpeg" alt="Avatar" style="width:90px">
+      <p><span>Pecliar Gideon.</span> CEO at JUPEG.</p>
+      <p>Estasignature saved us from a hair disaster.</p>
+    </div>
+
+    <div class="container">
+      <img src="img\pexels-photo-973403.webp" alt="Avatar" style="width:90px">
+      <p><span>Marvelous.</span> CEO at Company.</p>
+      <p>No saloon is better than Estasignature.</p>
+    </div>
+
+      <button class="open-button" onclick="openForm()">Chat</button>
+
+      <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Chat</h1>
+
+          <label for="msg"><b>Message</b></label>
+          <textarea placeholder="Type message.." name="msg" required></textarea>
+
+          <button type="submit" class="btn">Send</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+        
+      </div>
+
+
+      <script>
+        // Function to open the form
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        // Function to close the form
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+        // Add event listener to the send button
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("sendButton").addEventListener("click", function(event){
+                // Prevent the default form submission behavior
+                event.preventDefault();
+                // Show alert notification
+                alert("Message sent! we would get back to you shortly");
+            });
+        });
+      </script>
+
+      </body>
+        </html>
